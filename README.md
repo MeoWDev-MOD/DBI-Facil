@@ -1,13 +1,13 @@
-# DBI Fácil · Instalar pelo navegador
+# MeoWGuard · Instalar pelo navegador
 
 Página para instalar no Nintendo Switch, pelo navegador e pelo cabo USB, os jogos que você comprou,
-usando o app **DBI Fácil**.
+usando o app **MeoWGuard**.
 
-**Endereço:** https://meowdev-mod.github.io/DBI-Facil/
+**Endereço:** https://meowdev-mod.github.io/MeoWGuard/
 
 ## Como usar
 
-1. No Switch: abra o DBI Fácil → **Instalar jogos** → **Mac** → **Pelo navegador Chrome**.
+1. No Switch: abra o MeoWGuard → **Instalar jogos** → **Mac** → **Pelo navegador Chrome**.
 2. No computador (Google Chrome, Microsoft Edge ou Opera): abra a página, clique em
    **Conectar ao Switch** e escolha **Nintendo Switch** na lista.
 3. Escolha os arquivos (NSP, NSZ, XCI, XCZ ou MSP) e clique em **Enviar para o Switch**.
@@ -25,7 +25,7 @@ Só para jogos que você comprou. Fazer cópia de segurança do que é seu é pe
 
 - Baseada no WebUSB do [sphaira](https://github.com/ITotalJustice/sphaira), de ITotalJustice e
   colaboradores, sob a licença GPLv3 (arquivo `LICENSE`). Mudanças: textos em português e visual do
-  DBI Fácil. O funcionamento (a conversa com o Switch) é o mesmo do original.
+  MeoWGuard. O funcionamento (a conversa com o Switch) é o mesmo do original.
 - Fonte Inter, de The Inter Project Authors, sob a SIL Open Font License 1.1 (`fonts/OFL.txt`).
 
 Developed by MeoWDev MOD. Grátis, sem fins lucrativos e sem ligação com a Nintendo.

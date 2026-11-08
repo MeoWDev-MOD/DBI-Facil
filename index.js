@@ -1,4 +1,4 @@
-// DBI Fácil: instalar pelo navegador (WebUSB). Baseado no WebUSB do sphaira (tools/webusb),
+// MeoWGuard: instalar pelo navegador (WebUSB). Baseado no WebUSB do sphaira (tools/webusb),
 // de ITotalJustice e colaboradores, licença GPLv3. Mudanças: textos em português.
 // --- Constants ---
 const MAGIC = 0x53504830;
@@ -482,7 +482,7 @@ class WebUSBFileTransfer {
         const container = document.querySelector('.container');
         container.innerHTML = `
             <div class="unsupported-splash">
-                <h1>DBI Fácil</h1>
+                <h1>MeoWGuard</h1>
                 <h2>⚠️ Este navegador não funciona aqui</h2>
                 <p>Ele não tem o recurso WebUSB, que a página usa para falar com o Switch pelo cabo.</p>
                 <p><strong>Abra esta página em um destes navegadores, no computador:</strong></p>
