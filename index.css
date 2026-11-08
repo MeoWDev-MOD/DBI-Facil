@@ -58,7 +58,7 @@ a { color: var(--destaque); }
 .mascote {
     width: 88px;
     height: 88px;
-    filter: drop-shadow(0 8px 24px rgba(124, 58, 237, 0.55));
+    filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
 }
 h1 {
     margin: 0;
@@ -89,7 +89,7 @@ h1 span { color: var(--destaque); }
     margin-bottom: 16px;
     backdrop-filter: blur(6px);
 }
-h3 {
+.section h2 {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -123,10 +123,10 @@ button {
     min-height: 46px;
     margin: 4px 8px 4px 0;
     cursor: pointer;
-    box-shadow: 0 6px 18px rgba(90, 60, 240, 0.35);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
     transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
 }
-button:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(124, 58, 237, 0.5); }
+button:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45); }
 button:active:not(:disabled) { transform: translateY(0); }
 button:focus-visible { outline: 3px solid var(--destaque); outline-offset: 2px; }
 button:disabled { opacity: 0.4; cursor: not-allowed; box-shadow: none; }
@@ -154,7 +154,7 @@ button.secundario, .btn-clear, .log-btn {
     background: rgba(0, 0, 0, 0.18);
     border-radius: 14px;
 }
-.device-list h4 { margin: 0 0 8px; font-size: 0.9rem; color: var(--destaque); }
+.device-list h3 { margin: 0 0 8px; font-size: 0.9rem; color: var(--destaque); }
 .device-list-item {
     display: flex;
     align-items: center;
@@ -223,7 +223,6 @@ button.secundario, .btn-clear, .log-btn {
     width: 0%;
     background: linear-gradient(90deg, var(--botao-a), var(--botao-c));
     border-radius: 999px;
-    transition: width 0.3s ease;
 }
 .progresso-linha {
     display: flex;
@@ -282,7 +281,6 @@ button.secundario, .btn-clear, .log-btn {
     padding: 12px 14px 12px 16px;
     background: var(--solido);
     border: 1px solid var(--linha);
-    border-left: 4px solid var(--destaque);
     border-radius: 14px;
     box-shadow: 0 12px 32px rgba(5, 3, 20, 0.6);
     opacity: 0;
@@ -291,9 +289,9 @@ button.secundario, .btn-clear, .log-btn {
     transition: opacity 0.25s ease, transform 0.25s ease;
 }
 .connection-toast.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
-.connection-toast.success { border-left-color: var(--ok); }
-.connection-toast.error, .connection-toast.disconnect { border-left-color: var(--perigo); }
-.connection-toast.info { border-left-color: var(--destaque); }
+.connection-toast.success { border-color: rgba(74, 222, 128, 0.55); }
+.connection-toast.error, .connection-toast.disconnect { border-color: rgba(255, 86, 100, 0.6); }
+.connection-toast.info { border-color: rgba(167, 139, 250, 0.55); }
 #toastMessage { flex: 1; overflow-wrap: anywhere; }
 .toast-close {
     min-height: 0;
