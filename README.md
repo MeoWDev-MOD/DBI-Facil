@@ -3,7 +3,7 @@
 Página para instalar no Nintendo Switch, pelo navegador e pelo cabo USB, os jogos que você comprou,
 usando o app **MeoWGuard**.
 
-**Endereço:** https://meowdev-mod.github.io/MeoWGuard/
+**Endereço:** https://techmeow.app/MeoWGuard/
 
 ## Como usar
 
