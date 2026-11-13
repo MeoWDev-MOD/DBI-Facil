@@ -1,5 +1,7 @@
 # MeoWGuard · Instalar pelo navegador
 
+🌐 **[Read in English](README.en.md)**
+
 Página para instalar no Nintendo Switch, pelo navegador e pelo cabo USB, os jogos que você comprou,
 usando o app **MeoWGuard**.
 
